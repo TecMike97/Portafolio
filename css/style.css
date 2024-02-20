@@ -1,6 +1,35 @@
 body{
     background-color: #2d2d2d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.navbar{
-    background-color: #2d2d2d;
+.custom-navbar{
+    background-color: #2d2d2d; /* Cambia el color de fondo a rojo (#ff0000) */
 }
+.navbar-brand{
+    color:#FF5277;
+}
+.color-fuente-rojo{
+    color:#FF5277;
+}
+.color-fuente-blanco{
+    color:azure;
+}
+.small-text-front{
+    font-size:25px;
+}
+.smallest-text-font{
+    font-size: 20px;
+}
+.big-text-font{
+    font-size:70px;
+}
+.final-pagina{
+    color:azure;
+}
+footer.final-pagina {
+    border-top: 1px solid #fff; 
+    padding-top: 20px; 
+}
+.info {width:900px;}
+.info img {float:right;}
+.info p {margin-right:400px;}

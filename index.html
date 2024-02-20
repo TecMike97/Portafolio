@@ -9,22 +9,107 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Miguel Gonzalez</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              <a class="nav-link" href="#">Blog</a>
-              <a class="nav-link" href="#">Acerca de</a>
+      <nav class="navbar navbar-expand-lg custom-navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="./src/logo.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
+          </a>
+          <a class="navbar-brand" href="#">Angel Orozco</a>
+            <div class="navbar-nav ms-auto">
+              <a href="index.html" class="d-flex align-items-center"><img src="./src/shark.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top"></a>
+            </div>
+        </div>
+      </nav>
+      <hr><hr><hr>
+      <main class="main container">
+        <div class="container-md color-fuente-rojo align-text-top">
+          <p class="small-text-front">HOLA, MI NOMBRE ES ANGEL</p>
+          <p class="color-fuente-blanco big-text-font">Dev Full Stack Java</p>
+          <p class="color-fuente-blanco smallest-text-font">Soy un Técnico en Computación y Desarrollador Full Stack Junior con un gusto por la resolución de problemas y el aprendizaje continuo, con habilidades destacadas en trabajo colaborativo.</p>
+        </div>
+        <hr><hr>
+        <div class="container-sm">
+          <h2 class="color-fuente-rojo text-center">- Mis Herramientas -</h2>
+        </div>
+        <hr><hr>
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="src/java.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="src/github.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="src/htcsjs.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="src/SQL.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="src/ti.png" class="d-block w-100" alt="...">
             </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-      </nav>    
-    
+        <hr><hr><hr><hr>
+        <div class="container-sm">
+          <h2 class="color-fuente-rojo text-center">- Mis Proyectos -</h2>
+        </div>
+        <hr><hr>
+        <div class="container-md color-fuente-rojo align-text-top">
+          <img class ="rounded float-start"src="src/Ajo.png" width="120" height="120" style="margin-bottom: 20px;">
+          <h4 class="color-fuente-blanco">Ajo de Bruja [2024]</h4>
+          <p class="color-fuente-blanco">
+            Participé en el desarrollo colaborativo de una página web dedicada a la venta de productos orgánicos y veganos. Trabajé en equipo para planificar, diseñar y desarrollar la plataforma, utilizando tecnologías como HTML, CSS y JavaScript. Implementamos características de compra segura y gestión de inventario, y realizamos pruebas exhaustivas para garantizar la funcionalidad y la usabilidad del sitio en diferentes dispositivos. El proyecto culminó con éxito con el lanzamiento del sitio web, demostrando mi capacidad para trabajar en equipo y entregar soluciones de alta calidad.</p>
+      </div>
+      <hr>
+      <p></p>
+      <hr>
+      <div class="container-md color-fuente-rojo align-text-top">
+        <img class ="rounded float-end"src="src/ss13.png" width="120" height="120" style="margin-bottom: 20px;">
+        <h4 class="color-fuente-blanco">Space Station [2020-2022]</h4>
+        <p class="color-fuente-blanco">Participé en un equipo multilingüe en el desarrollo de un videojuego de simulación espacial programado en Dream Maker. Colaboramos para planificar, diseñar y desarrollar la experiencia de juego, implementando características y mecánicas únicas.Trabajé en la programación del juego, asegurando su funcionalidad y optimización. La comunicación efectiva entre miembros del equipo en diferentes idiomas fue fundamental para el éxito del proyecto.</p>
+      </div>
+      <hr><hr>
+        <div class="container-md color-fuente-rojo align-text-top">
+          <img class ="rounded float-start"src="src/scool.png" width="100" height="100" style="margin-bottom: 20px;">
+          <h4 class="color-fuente-blanco">Colegio Maria Regina [2019-2020]</h4>
+          <p class="color-fuente-blanco">Desarrollé mi primera página web como parte de un proyecto remunerado que representó un valioso proceso de aprendizaje para mi trayectoria profesional. A través de este proyecto, adquirí habilidades en diseño web, HTML, CSS y JavaScript, mientras trabajaba en estrecha colaboración con el cliente para entender sus necesidades y objetivos. La experiencia me permitió comprender los principios fundamentales del desarrollo web y mejorar mis capacidades de comunicación y gestión de proyectos. El éxito de la página web finalizada fue testimonio de mi dedicación y crecimiento profesional en el campo del desarrollo web.</p>
+      </div>
+      <hr>
+      </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <hr><hr><hr><hr>
+    <footer class="final-pagina">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h3>Enlaces</h3>
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="https://github.com/TecMike97">Git Hub</a></li>
+              <li><a href="https://www.linkedin.com/in/miguelgonzalez97/">Linkedin</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h3>Contacto</h3>
+            <p>Correo electrónico: tec.miguelgonzalez.97@gmail.com</p>
+            <p>Discord: @Spircen</p>
+          </div>
+          <div class="col-lg-4">
+            <h3>Derechos de autor</h3>
+            <p>(c) 2024 MIT License.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
